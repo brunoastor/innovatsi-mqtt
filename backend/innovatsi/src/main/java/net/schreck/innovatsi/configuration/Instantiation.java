@@ -22,11 +22,9 @@ public class Instantiation implements CommandLineRunner {
 
         Sector setor1 = new Sector(null, "A");
         Sector setor2 = new Sector(null, "B");
+        Sector setor3 = new Sector(null, "C");
 
-        sectorRepository.saveAll(Arrays.asList(setor1, setor2));
-
-
-        //throw new UnsupportedOperationException("Unimplemented method 'run'");
+        sectorRepository.saveAll(Arrays.asList(setor1, setor2, setor3));
     }
     
 }
